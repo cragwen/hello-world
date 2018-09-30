@@ -3,4 +3,4 @@ Just another repository
 
 Hi, I am William, new to github. thank you!
 
-update.
+this is a repo to record will's coding life.
