@@ -1,0 +1,1008 @@
+Vector Parameter	1.0
+
+ScalarSingleRecord
+
+Name	Type	Info	Value
+OCU_INIT_COMMAND	Auto		0
+OCU_DEINIT_COMMAND	Auto		1
+OCU_STARTCHANNEL_COMMAND	Auto		2
+OCU_STOPCHANNEL_COMMAND	Auto		3
+OCU_ENABLENOTIFICATION_COMMAND	Auto		4
+OCU_DISABLENOTIFICATION_COMMAND	Auto		5
+OCU_SETPRESCALER_COMMAND	Auto		6
+OCU_SETPINSTATE_COMMAND	Auto		7
+OCU_SETPINACTION_COMMAND	Auto		8
+OCU_SETABSOLUTETHRESHOLD_COMMAND	Auto		9
+OCU_SETRELATIVETHRESHOLD_COMMAND	Auto		10
+OCU_GETVERSIONINFO_COMMAND	Auto		11
+OCU_GETCOUNTER_COMMAND	Auto		12
+OCU_CHECKCHANNELSTATUS_DET_COMMAND	Auto		13
+OCU_CHECKCHANNELSTATUS_STOPPED_COMMAND	Auto		14
+OCU_CHECKCHANNELSTATUS_RUNNINT_COMMAND	Auto		15
+OCU_CHECKCHANNELSTATUS_UNINIT_COMMAND	Auto		16
+OCU_ISRVECTOR_COMMAND	Auto		17
+OCU_CHANNELSTATUSSTOP_COMMAND	Auto		18
+OCU_DRIVERSTATUSUNINIT_COMMAND	Auto		19
+OCU_APIOFF_COMMAND	Auto		20
+CMD_TIMEOUT	Auto		1000
+RET_LIB_OK	Auto		1
+RET_CHANNEL_STOPPED	Auto		1
+RET_DRIVER_UNINIT	Auto		1
+OCU_CM_IN_REF_INTERVAL	Auto		0
+OCU_CM_OUT_REF_INTERVAL	Auto		1
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuInit
+ParameterName		CommandId	In_ConfigSetNum	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_CheckRegValue
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																	
+Values		0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0
+		0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuInitChannelStatus
+ParameterName		Exp_Result	Exp_DriverStatus	Exp_SettingThreshold	Exp_PinState	Exp_PinAction	Exp_ChannelState	Exp_Prescale	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info									
+Values		1	1	0	0	3	0	1	0
+		1	1	0	1	3	0	1	0
+		1	1	0	3	3	0	1	0
+		1	1	20000	1	3	0	1	0
+		1	1	0	0	3	0	1	0
+		1	1	20000	1	3	0	1	0
+		1	1	20000	3	3	0	1	0
+		1	1	0	0	3	0	1	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuInitAllResource
+ParameterName		CommandId	In_ConfigSetNum	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																	
+Values		0	2	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuInitOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		0	255	0	0	1	125	0	0	2	1	125	0	0	2
+		0	254	0	0	1	125	0	0	2	1	125	0	0	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuInitOCUEALREADYINITIALIZEDDetOn
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		0	253	0	0	1	125	0	0	7	1	125	0	0	7
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuInitOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		0	255	0	0	0	0	0	0	0	1	125	0	0	2
+		0	254	0	0	0	0	0	0	0	1	125	0	0	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuInitOCUEALREADYINITIALIZEDDetOff
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		0	253	0	0	0	0	0	0	0	1	125	0	0	7
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDeInit
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		1	3	1	1	0	0	0	0	0	0	0	0	0	0
+		1	4	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDeInitChannelStatus
+ParameterName		Exp_Result	Exp_DriverStatus	Exp_SettingThreshold	Exp_PinState	Exp_PinAction	Exp_ChannelState	Exp_Prescale	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info									
+Values		1	0	4294967295	3	3	0	0	0
+		1	0	4294967295	3	3	0	0	0
+		1	0	4294967295	3	3	0	0	0
+		1	0	4294967295	3	3	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDeInitOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		1	255	0	0	1	125	0	1	2	1	125	0	1	2
+		1	254	0	0	1	125	0	1	2	1	125	0	1	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDeInitOCUEPARAMINVALIDSTATEDetOn
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		1	253	0	0	1	125	0	1	4	1	125	0	1	4
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDeInitOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		1	255	0	0	0	0	0	0	0	1	125	0	1	2
+		1	254	0	0	0	0	0	0	0	1	125	0	1	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDeInitOCUEPARAMINVALIDSTATEDetOff
+ParameterName		CommandId	In_ConfigSetNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info															
+Values		1	253	0	0	0	0	0	0	0	1	125	0	1	4
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChannel
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	3	0	0	0	1	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		2	3	1	1	1	1	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		2	3	2	0	2	1	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		2	3	0	1	3	1	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChannelOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	255	0	0	0	1	1	0	0	0	1	125	0	2	2	1	125	0	2	2
+		2	254	0	0	0	1	1	1	0	0	1	125	0	2	2	1	125	0	2	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChannelOCUEBUSYDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	253	0	0	0	1	1	2	0	0	1	125	0	2	9	1	125	0	2	9
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChanneOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	3	65535	0	0	1	1	0	0	0	1	125	0	2	3	1	125	0	2	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChannelOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	255	0	0	0	1	1	0	0	0	0	0	0	0	0	1	125	0	2	2
+		2	254	0	0	0	1	1	1	0	0	0	0	0	0	0	1	125	0	2	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChannelOCUEBUSYDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	253	0	0	0	1	1	2	0	0	0	0	0	0	0	1	125	0	2	9
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChanneOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	3	65535	0	0	1	1	0	0	0	0	0	0	0	0	1	125	0	2	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStartChanneOCUEWAITINGTRIGGERDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_EnableNotification	In_PinAction	In_CallPortActTrigger	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		2	3	0	0	0	0	1	0	0	0	0	0	0	0	0	1	125	0	2	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStopChannel
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_PinAction	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_ChannelState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		3	3	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		3	3	1	1	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStopChannelOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_PinAction	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState	Exp_NotificationCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		3	255	0	0	0	1	0	0	0	0	1	125	0	3	2	1	125	0	3	2
+		3	254	0	0	0	1	1	0	0	0	1	125	0	3	2	1	125	0	3	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStopChannelOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_PinAction	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationNotCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		3	253	65535	0	0	0	0	0	1	125	0	3	3	1	125	0	3	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStopChannelOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_PinAction	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_ChannelState	Exp_NotificationCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		3	255	0	0	0	1	0	0	0	0	0	0	0	0	0	1	125	0	3	2
+		3	254	0	0	0	1	1	0	0	0	0	0	0	0	0	1	125	0	3	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuStopChannelOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_PinAction	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationNotCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		3	253	65535	0	0	0	0	0	0	0	0	0	0	1	125	0	3	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuEnableNotification
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		4	3	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		4	3	1	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		4	3	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		4	3	1	1	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuEnableNotificationOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		4	255	0	0	0	1	0	0	0	1	125	0	11	2	1	125	0	11	2
+		4	254	0	0	0	1	0	0	0	1	125	0	11	2	1	125	0	11	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuEnableNotificationOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		4	3	65535	0	0	0	0	1	125	0	11	3	1	125	0	11	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuEnableNotificationOCUENOVALIDNOTIFDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		4	3	6	0	0	1	0	0	0	1	125	0	11	6	1	125	0	11	6
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuEnableNotificationOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		4	255	0	0	0	1	0	0	0	0	0	0	0	0	1	125	0	11	2
+		4	254	0	0	0	1	0	0	0	0	0	0	0	0	1	125	0	11	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuEnableNotificationOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		4	3	65535	0	0	0	0	0	0	0	0	0	1	125	0	11	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuEnableNotificationOCUENOVALIDNOTIFDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		4	3	6	0	0	1	0	0	0	0	0	0	0	0	1	125	0	11	6
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDisableNotification
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		5	3	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		5	3	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		5	3	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		5	3	1	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDisableNotificationOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		5	255	0	0	0	1	0	0	0	1	125	0	11	2	1	125	0	11	2
+		5	254	0	0	0	1	0	0	0	1	125	0	11	2	1	125	0	11	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDisableNotificationOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		5	3	65535	0	0	0	0	1	125	0	11	3	1	125	0	11	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDisableNotificationOCUENOVALIDNOTIFDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		5	3	6	0	0	1	0	0	0	1	125	0	11	6	1	125	0	11	6
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDisableNotificationOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		5	255	0	0	0	1	0	0	0	0	0	0	0	0	1	125	0	11	2
+		5	254	0	0	0	1	0	0	0	0	0	0	0	0	1	125	0	11	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDisableNotificationOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		5	3	65535	0	0	0	0	0	0	0	0	0	1	125	0	11	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuDisableNotificationOCUENOVALIDNOTIFDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_NotificationCalled	Exp_Result	Exp_NotificationEnabled
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		5	3	6	0	0	1	0	0	0	0	0	0	0	0	1	125	0	11	6
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescaler
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	3	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		6	3	0	2	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		6	3	0	4	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		6	3	0	8	0	3	1	1	0	0	0	0	0	0	0	0	0	0
+		6	3	0	16	0	4	1	1	0	0	0	0	0	0	0	0	0	0
+		6	3	0	32	0	5	1	1	0	0	0	0	0	0	0	0	0	0
+		6	3	0	64	0	6	1	1	0	0	0	0	0	0	0	0	0	0
+		6	3	0	128	0	7	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	255	0	1	1	0	0	0	1	125	0	254	2	1	125	0	254	2
+		6	254	0	1	1	0	0	0	1	125	0	254	2	1	125	0	254	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEBUSYDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	253	0	1	1	0	0	0	1	125	0	254	9	1	125	0	254	9
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEWAITINGTRIGGERDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	252	0	1	1	0	0	0	1	125	0	254	244	1	125	0	254	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	3	65535	1	1	0	0	0	1	125	0	254	3	1	125	0	254	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEPARAMINVALIDCLOCKDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	3	0	0	1	0	0	0	1	125	0	254	240	1	125	0	254	240
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	255	0	1	1	0	0	0	0	0	0	0	0	1	125	0	254	2
+		6	254	0	1	1	0	0	0	0	0	0	0	0	1	125	0	254	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEBUSYDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	253	0	1	1	0	0	0	0	0	0	0	0	1	125	0	254	9
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEWAITINGTRIGGERDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	252	0	1	1	0	0	0	0	0	0	0	0	1	125	0	254	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	3	65535	1	1	0	0	0	0	0	0	0	0	1	125	0	254	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPrescalerOCUEPARAMINVALIDCLOCKDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ClockFrequency	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_Prescale
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		6	3	0	0	1	0	0	0	0	0	0	0	0	1	125	0	254	240
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinState
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	3	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		7	3	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		7	3	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		7	3	1	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	255	0	0	1	0	0	0	1	125	0	4	2	1	125	0	4	2
+		7	254	0	0	1	0	0	0	1	125	0	4	2	1	125	0	4	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	3	65535	0	1	0	0	0	1	125	0	4	3	1	125	0	4	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEPARAMINVALIDSTATEDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	3	0	2	1	0	0	0	1	125	0	4	4	1	125	0	4	4
+		7	253	0	0	1	0	0	0	1	125	0	4	4	1	125	0	4	4
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEPARAMNOPINDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	3	6	0	1	0	0	0	1	125	0	4	10	1	125	0	4	10
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEWAITINGTRIGGERDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	252	0	0	1	0	0	0	1	125	0	4	244	1	125	0	4	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	255	0	0	1	0	0	0	0	0	0	0	0	1	125	0	4	2
+		7	254	0	0	1	0	0	0	0	0	0	0	0	1	125	0	4	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	3	65535	0	1	0	0	0	0	0	0	0	0	1	125	0	4	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEPARAMINVALIDSTATEDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	3	0	2	1	0	0	0	0	0	0	0	0	1	125	0	4	4
+		7	253	0	0	1	0	0	0	0	0	0	0	0	1	125	0	4	4
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEPARAMNOPINDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	3	6	0	1	0	0	0	0	0	0	0	0	1	125	0	4	10
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinStateOCUEWAITINGTRIGGERDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinState	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinState
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		7	252	0	0	1	0	0	0	0	0	0	0	0	1	125	0	4	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinAction
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinAction
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		8	3	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		8	3	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		8	3	0	2	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		8	3	0	3	0	3	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinAction
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		8	255	0	0	0	0	0	0	1	125	0	5	2	1	125	0	5	2
+		8	254	0	0	0	0	0	0	1	125	0	5	2	1	125	0	5	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																	
+Values		8	3	65535	0	0	0	1	125	0	5	3	1	125	0	5	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEPARAMINVALIDACTIONDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinAction
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		8	3	0	4	1	0	0	0	1	125	0	5	5	1	125	0	5	5
+		8	3	0	255	1	0	0	0	1	125	0	5	5	1	125	0	5	5
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEPARAMNOPINDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinAction
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		8	3	6	0	1	0	0	0	1	125	0	5	10	1	125	0	5	10
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinAction
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		8	255	0	0	0	0	0	0	0	0	0	0	0	1	125	0	5	2
+		8	254	0	0	0	0	0	0	0	0	0	0	0	1	125	0	5	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																	
+Values		8	3	65535	0	0	0	0	0	0	0	0	1	125	0	5	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEPARAMINVALIDACTIONDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinAction
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		8	3	0	4	1	0	0	0	0	0	0	0	0	1	125	0	5	5
+		8	3	0	255	1	0	0	0	0	0	0	0	0	1	125	0	5	5
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetPinActionOCUEPARAMNOPINDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_PinAction	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Result	Exp_PinAction
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		8	3	6	0	1	0	0	0	0	0	0	0	0	1	125	0	5	10
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThreshold
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	3	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		9	3	0	1	0	1	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		9	3	0	2	65535	0	1	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		9	4	0	3	3	1	1	0	3	1	1	0	0	0	0	0	0	0	0	0	0
+		9	3	0	2	65535	0	1	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		9	4	0	3	3	1	1	0	3	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	255	0	0	0	0	1	1	0	0	0	1	125	0	7	2	1	125	0	7	2
+		9	254	0	0	0	0	1	1	0	0	0	1	125	0	7	2	1	125	0	7	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		9	3	65535	0	0	0	1	0	0	1	125	0	7	3	1	125	0	7	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEPARAMREFERENCEVALUEDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	3	0	65535	0	0	1	1	0	0	0	1	125	0	7	241	1	125	0	7	241
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEPARAMABSOLUTETHRESHOLDDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	3	0	0	65535	0	1	1	0	0	0	1	125	0	7	242	1	125	0	7	242
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEWAITINGTRIGGERDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	250	0	0	0	0	1	1	0	0	0	1	125	0	7	244	1	125	0	7	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	255	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	125	0	7	2
+		9	254	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	125	0	7	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																				
+Values		9	3	65535	0	0	0	1	0	0	0	0	0	0	0	1	125	0	7	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEPARAMREFERENCEVALUEDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	3	0	65535	0	0	1	1	0	0	0	0	0	0	0	0	1	125	0	7	241
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEPARAMABSOLUTETHRESHOLDDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	3	0	0	65535	0	1	1	0	0	0	0	0	0	0	0	1	125	0	7	242
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetAbsoluteThresholdOCUEWAITINGTRIGGERDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_ReferenceValue	In_AbsoluteValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																						
+Values		9	250	0	0	0	0	1	1	0	0	0	1	125	0	7	244	1	125	0	7	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThreshold
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		10	3	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0
+		10	3	0	1	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0
+		10	4	0	1	0	0	0	2	1	1	0	0	0	0	0	0	0	0	0	0
+		10	4	0	1	1	0	0	3	1	1	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		10	255	0	1	0	0	0	0	0	0	1	125	0	8	2	1	125	0	8	2
+		10	254	0	1	1	0	0	1	0	0	1	125	0	8	2	1	125	0	8	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		10	3	65535	1	0	0	0	0	1	125	0	8	3	1	125	0	8	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEPARAMRELATIVETHRESHOLDDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		10	3	0	65535	0	0	0	0	0	0	1	125	0	8	243	1	125	0	8	243
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEWAITINGTRIGGERDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		10	251	0	0	0	0	0	0	0	0	1	125	0	8	244	1	125	0	8	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		10	255	0	1	0	0	0	0	0	0	0	0	0	0	0	1	125	0	8	2
+		10	254	0	1	1	0	0	1	0	0	0	0	0	0	0	1	125	0	8	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																			
+Values		10	3	65535	1	0	0	0	0	0	0	0	0	0	1	125	0	8	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEPARAMRELATIVETHRESHOLDDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		10	3	0	65535	0	0	0	0	0	0	0	0	0	0	0	1	125	0	8	243
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuSetSetRelativeThresholdOCUEWAITINGTRIGGERDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNumber	In_RelativeValue	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_Return	Exp_Result	Exp_SettingThreshold
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		10	251	0	0	0	0	0	0	0	0	0	0	0	0	0	1	125	0	8	244
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetVersionInfo
+ParameterName		CommandId	In_ConfigSetNum	In_CallInit	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_vendorID	Exp_moduleID	Exp_sw_major_version	Exp_sw_minor_version	Exp_sw_patch_version
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																					
+Values		11	3	0	66	125	1	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+		11	3	1	66	125	1	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetVersionInfoOCUEPARAMPOINTERDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_CallInit	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																
+Values		11	255	0	0	0	1	125	0	9	8	1	125	0	9	8
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetVersionInfoOCUEPARAMPOINTERDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_CallInit	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																
+Values		11	255	0	0	0	0	0	0	0	0	1	125	0	9	8
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetCounter
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_TickValue
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		12	3	0	0	65535	0	0	0	0	0	0	0	0	0	0	0	0
+		12	3	0	1	65535	0	0	0	0	0	0	0	0	0	0	0	0
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetCounterOCUEUNINITDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_TickValue
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		12	255	0	0	0	0	0	1	125	0	6	2	1	125	0	6	2
+		12	254	0	0	65535	0	0	1	125	0	6	2	1	125	0	6	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetCounterOCUEPARAMINVALIDCHANNELDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_TickValue
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		12	3	65535	0	0	0	0	1	125	0	6	3	1	125	0	6	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetCounterOCUEUNINITDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_TickValue
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		12	255	0	0	0	0	0	0	0	0	0	0	1	125	0	6	2
+		12	254	0	0	65535	0	0	0	0	0	0	0	1	125	0	6	2
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuGetCounterOCUEPARAMINVALIDCHANNELDetOff
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	In_StartChannel	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_TickValue
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																		
+Values		12	3	65535	0	0	0	0	0	0	0	0	0	1	125	0	6	3
+
+
+StructListSingleRecord
+
+StructName	SWIT_ML_OCU_OcuCheckChannelStatusDetOn
+ParameterName		CommandId	In_ConfigSetNum	In_ChannelNum	Exp_SchMEnterCount	Exp_SchMExitCount	Exp_DetCount	Exp_DetModuleId	Exp_DetInstanceId	Exp_DetApiId	Exp_DetErrorId	Exp_CalloutCount	Exp_CalloutModuleId	Exp_CalloutInstanceId	Exp_CalloutApiId	Exp_CalloutErrorId	Exp_TickValue
+Type		Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer	Integer
+Info																	
+Values		13	3	65535	0	0	0	0	0	0	0	0	1	125	0	6	3
+
