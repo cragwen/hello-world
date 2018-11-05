@@ -1,4 +1,5 @@
 import csv,sys,os
+# python2.7
 
 filename = sys.argv[1]
 
@@ -10,9 +11,9 @@ DELIMITER = " "
 END       = "/"
 
 CaseList = {}
-with open(filename, newline='') as freq:
-  reader = csv.reader(freq)
-  for row in reader:
+with open(filename) as ListFile:
+  ListContent = csv.reader(ListFile)
+  for row in ListContent:
     if row[0] not in CaseList:
       CaseList[row[0]] = row[1].split(',')
     else:
@@ -21,14 +22,14 @@ with open(filename, newline='') as freq:
           CaseList[row[0]].append(x)
 
 TransDict = {}
-with open('trans.csv', newline='') as trans:
-  tran = csv.reader(trans)
-  for row in tran:
+with open('trans.csv') as DictFile:
+  DictContent = csv.reader(DictFile)
+  for row in DictContent:
     TransDict[row[0]] = row[1:]
 
 for Case in CaseList:
-  print("\n")
-  print(Case)
+  print "\n"
+  print Case
   req = []
   arch = []
   dsgn = []
@@ -40,12 +41,15 @@ for Case in CaseList:
         arch.append(TransDict[PolarionID][0])
       if TransDict[PolarionID][1] == DSGN:
         dsgn.append(TransDict[PolarionID][0])
+    else:
+      print "====================================="
+      print PolarionID + " is missing!\n"
 
   if req:
-    print(REQ + COLON + DELIMITER.join(req), end = END)
+    sys.stdout.write(REQ + COLON + DELIMITER.join(req) + END)
   if arch:
-    print(ARCH + COLON + DELIMITER.join(arch), end = END)
+    sys.stdout.write(ARCH + COLON + DELIMITER.join(arch) + END)
   if dsgn:
-    print(DSGN + COLON + DELIMITER.join(dsgn))
+    sys.stdout.write(DSGN + COLON + DELIMITER.join(dsgn))
 
 
