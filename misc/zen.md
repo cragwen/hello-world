@@ -42,3 +42,14 @@
 48. Design to Test  
 49. Test Your Software, or Your Users Will  
 50. Don't Use Wirzard Code You Don't Understand  
+51. Don't Gather Requirements - Dig For Them  
+52. Work with a User to Think Like a User  
+53. Abstractions Live Longer than Details.  
+54. Use a Project Glossary.  
+
+
+
+
+
+
+

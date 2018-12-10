@@ -14,7 +14,7 @@ with open(filename, newline='') as freq:
   reader = csv.reader(freq)
   for row in reader:
     if row[0] not in CaseList:
-      CaseList[row[0]] = row[1].split(',')
+      CaseList[row[0]] = list(set(row[1].split(',')))
     else:
       for x in row[1].split(','):
         if x not in CaseList[row[0]]:
