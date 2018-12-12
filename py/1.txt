@@ -1,0 +1,234 @@
+SWIT-ML_OCU_OcuDeInit
+['SWS_Ocu_00049', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00140', 'ECUC_Ocu_00152', 'SWS_Ocu_00045', 'SWS_Ocu_00046', 'SWS_Ocu_00047', 'SWS_Ocu_00048', 'SWS_Ocu_00136', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuChannelId.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuDeInitApi.CONF', 'OcuGeneral.CONF', 'OcuChannelStateMachine.DIAG', 'OcuDeInit.DIAG', 'OcuDriverStateMachine.DIAG', 'Ocu_DeInit.FUNC']
+SWIT-ML_OCU_OcuSetPinState
+['SWS_Ocu_00070', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00145', 'ECUC_Ocu_00149', 'ECUC_Ocu_00159', 'SWS_Ocu_00031', 'SWS_Ocu_00066', 'SWS_Ocu_00067', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OCU_DOWNCOUNTING.CONF', 'OCU_UPCOUNTING.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuCountdirection.CONF', 'OcuGeneral.CONF', 'OcuOutputPinUsed.CONF', 'OcuSetPinStateApi.CONF', 'Ocu_SetPinState.FUNC', 'OcuSetPinState.DIAG']
+SWIT-ML_OCU_OcuSetPinAction
+['SWS_Ocu_00079', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00144', 'ECUC_Ocu_00159', 'SWS_Ocu_00032', 'SWS_Ocu_00076', 'SWS_Ocu_00077', 'SWS_Ocu_00084', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuOutputPinUsed.CONF', 'OcuSetPinActionApi.CONF', 'Ocu_SetPinAction.FUNC', 'OcuSetPinAction.DIAG']
+SWIT-ML_OCU_OcuGetCounter
+['SWS_Ocu_00088', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00141', 'SWS_Ocu_00013', 'SWS_Ocu_00029', 'SWS_Ocu_00085', 'SWS_Ocu_00086', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuGetCounterApi.CONF', 'Ocu_GetCounter.FUNC', 'OcuGetCounter.DIAG']
+SWIT-ML_OCU_OcuSetAbsoluteThreshold
+['SWS_Ocu_00094', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00143', 'ECUC_Ocu_00157', 'SWS_Ocu_00013', 'SWS_Ocu_00138', 'SWS_Ocu_00091', 'SWS_Ocu_00092', 'SWS_Ocu_00098', 'SWS_Ocu_00097', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuMaxCounterValue.CONF', 'OcuSetAbsoluteThresholdApi.CONF', 'Ocu_SetAbsoluteThreshold.FUNC', 'OcuSetAbsoluteThreshold.DIAG']
+SWIT-ML_OCU_OcuSetRelativeThreshold
+['SWS_Ocu_00103', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00146', 'ECUC_Ocu_00157', 'SWS_Ocu_00013', 'SWS_Ocu_00138', 'SWS_Ocu_00100', 'SWS_Ocu_00101', 'SWS_Ocu_00106', 'SWS_Ocu_00107', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuMaxCounterValue.CONF', 'OcuSetRelativeThresholdApi.CONF', 'Ocu_SetRelativeThreshold.FUNC', 'OcuSetRelativeThreshold.DIAG']
+SWIT-ML_OCU_OcuDisableNotification
+['SWS_Ocu_00111', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00142', 'ECUC_Ocu_00158', 'SWS_Ocu_00108', 'SWS_Ocu_00109', 'SWS_Ocu_00128', 'SWS_Ocu_00129', 'SWS_Ocu_00130', 'SWS_Ocu_00132', 'SWS_Ocu_00133', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuNotification.CONF', 'OcuNotificationSupported.CONF', 'Ocu_DisableNotification.FUNC', 'OcuDisableNotification.DIAG']
+SWIT-ML_OCU_OcuEnableNotification
+['SWS_Ocu_00118', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00142', 'ECUC_Ocu_00158', 'SWS_Ocu_00115', 'SWS_Ocu_00116', 'SWS_Ocu_00128', 'SWS_Ocu_00129', 'SWS_Ocu_00130', 'SWS_Ocu_00132', 'SWS_Ocu_00133', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuNotification.CONF', 'OcuNotificationSupported.CONF', 'Ocu_EnableNotification.FUNC', 'OcuEnableNotification.DIAG']
+SWIT-ML_OCU_OcuGetVersionInfo
+['SWS_Ocu_00124', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00147', 'SWS_Ocu_00169', 'SWS_Ocu_00122', 'SWS_Ocu_00123', 'CY_MCAL_OCU_017', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuVersionInfoApi.CONF', 'Ocu_GetVersionInfo.FUNC', 'OcuGetVersionInfo.DIAG']
+SWIT-ML_OCU_OcuInit
+['SWS_Ocu_00131', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00148', 'ECUC_Ocu_00149', 'ECUC_Ocu_00150', 'ECUC_Ocu_00151', 'ECUC_Ocu_00152', 'ECUC_Ocu_00153', 'ECUC_Ocu_00154', 'ECUC_Ocu_00155', 'ECUC_Ocu_00156', 'ECUC_Ocu_00157', 'ECUC_Ocu_00160', 'ECUC_Ocu_00161', 'ECUC_Ocu_00162', 'ECUC_Ocu_00163', 'ECUC_Ocu_00164', 'ECUC_Ocu_00165', 'ECUC_Ocu_00166', 'CY_MCAL_OCU_002', 'CY_MCAL_OCU_003', 'CY_MCAL_OCU_047', 'CY_MCAL_OCU_052', 'CY_MCAL_OCU_067', 'CY_MCAL_OCU_068', 'CY_MCAL_OCU_074', 'SWS_Ocu_00033', 'SWS_Ocu_00034', 'SWS_Ocu_00035', 'SWS_Ocu_00036', 'SWS_Ocu_00010', 'SWS_Ocu_00011', 'SWS_Ocu_00037', 'SWS_Ocu_00038', 'SWS_Ocu_00039', 'SWS_Ocu_00040', 'SWS_Ocu_00044', 'CY_MCAL_OCU_018', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_031', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_056', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigSet.DIAG', 'OcuChannel.DIAG', 'Ocu.CONF', 'OCU_DOWNCOUNTING.CONF', 'OCU_HIGH.CONF', 'OCU_LOW.CONF', 'OCU_PRESCALE_[Prescaler_number].CONF', 'OCU_UPCOUNTING.CONF', 'OcuChannel.CONF', 'OcuChannelId.CONF', 'OcuChannelTickDuration.CONF', 'OcuChannelClockSource.CONF', 'OcuConfigSet.CONF', 'OcuCountdirection.CONF', 'OcuDefaultThreshold.CONF', 'OcuGeneral.CONF', 'OcuHardwareTriggeredAdc.CONF', 'OcuHardwareTriggeredDMA.CONF', 'OcuMaxCounterValue.CONF', 'OcuOutputPinDefaultState.CONF', 'OcuChannelPrescale.CONF', 'OcuTimer.CONF', 'OcuStartTriggerSelect0.CONF', 'OCU_DEBUG_MODE_CONTINUE.CONF', 'OCU_DEBUG_MODE_HALT.CONF', 'OcuDebugMode.CONF', 'OcuStartTriggerSelect1.CONF', 'OcuChannelStateMachine.DIAG', 'OcuInit.DIAG', 'OcuDriverStateMachine.DIAG', 'Ocu_Init.FUNC', 'BOTH_(for_OcuHwTriggerOutputLine).CONF', 'OcuHwTriggerOutputLine.CONF', 'TR_OUT0_(for_OcuHwTriggerOutputLine).CONF', 'TR_OUT1_(for_OcuHwTriggerOutputLine).CONF']
+SWIT-ML_OCU_OcuInitAllChannel
+['SWS_Ocu_00131', 'SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00148', 'ECUC_Ocu_00149', 'ECUC_Ocu_00150', 'ECUC_Ocu_00151', 'ECUC_Ocu_00152', 'ECUC_Ocu_00153', 'ECUC_Ocu_00154', 'ECUC_Ocu_00155', 'ECUC_Ocu_00156', 'ECUC_Ocu_00157', 'ECUC_Ocu_00160', 'ECUC_Ocu_00161', 'ECUC_Ocu_00162', 'ECUC_Ocu_00163', 'ECUC_Ocu_00164', 'ECUC_Ocu_00165', 'ECUC_Ocu_00166', 'CY_MCAL_OCU_002', 'CY_MCAL_OCU_003', 'CY_MCAL_OCU_047', 'CY_MCAL_OCU_052', 'CY_MCAL_OCU_067', 'CY_MCAL_OCU_068', 'CY_MCAL_OCU_074', 'SWS_Ocu_00033', 'SWS_Ocu_00034', 'SWS_Ocu_00035', 'SWS_Ocu_00036', 'SWS_Ocu_00010', 'SWS_Ocu_00011', 'SWS_Ocu_00037', 'SWS_Ocu_00038', 'SWS_Ocu_00039', 'SWS_Ocu_00040', 'SWS_Ocu_00044', 'CY_MCAL_OCU_018', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_031', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_056', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigSet.DIAG', 'OcuChannel.DIAG', 'Ocu.CONF', 'OCU_DOWNCOUNTING.CONF', 'OCU_HIGH.CONF', 'OCU_LOW.CONF', 'OCU_PRESCALE_[Prescaler_number].CONF', 'OCU_UPCOUNTING.CONF', 'OcuChannel.CONF', 'OcuChannelId.CONF', 'OcuChannelTickDuration.CONF', 'OcuConfigSet.CONF', 'OcuCountdirection.CONF', 'OcuDefaultThreshold.CONF', 'OcuGeneral.CONF', 'OcuHardwareTriggeredAdc.CONF', 'OcuHardwareTriggeredDMA.CONF', 'OcuMaxCounterValue.CONF', 'OcuOutputPinDefaultState.CONF', 'OcuChannelPrescale.CONF', 'OcuTimer.CONF', 'OcuStartTriggerSelect0.CONF', 'OCU_DEBUG_MODE_CONTINUE.CONF', 'OCU_DEBUG_MODE_HALT.CONF', 'OcuDebugMode.CONF', 'OcuStartTriggerSelect1.CONF', 'OcuChannelStateMachine.DIAG', 'OcuInit.DIAG', 'OcuDriverStateMachine.DIAG', 'BOTH_(for_OcuHwTriggerOutputLine).CONF', 'OcuHwTriggerOutputLine.CONF', 'TR_OUT0_(for_OcuHwTriggerOutputLine).CONF', 'TR_OUT1_(for_OcuHwTriggerOutputLine).CONF']
+SWIT-ML_OCU_OcuStartChannel
+['SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00158', 'SWS_Ocu_00051', 'SWS_Ocu_00052', 'SWS_Ocu_00054', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'CY_MCAL_OCU_075', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'Ocu.CONF', 'OcuGeneral.CONF', 'OcuNotification.CONF', 'OcuChannelStateMachine.DIAG', 'OcuStartChannel.DIAG', 'Ocu_StartChannel.FUNC']
+SWIT-ML_OCU_OcuStopChannel
+['SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'SWS_Ocu_00058', 'SWS_Ocu_00059', 'SWS_Ocu_00060', 'SWS_Ocu_00062', 'SWS_Ocu_00063', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'Ocu.CONF', 'OcuGeneral.CONF', 'OcuChannelStateMachine.DIAG', 'OcuStopChannel.DIAG', 'Ocu_StopChannel.FUNC']
+SWIT-ML_OCU_OcuSetPrescaler
+['SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'CY_MCAL_OCU_002', 'CY_MCAL_OCU_003', 'CY_MCAL_OCU_045', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_060', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OCU_PRESCALE_[Prescaler_number].CONF', 'OcuChannelClockSource.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuChannelPrescale.CONF', 'OcuSetPrescalerApi.CONF', 'Ocu_SetPrescaler.FUNC', 'OcuSetPrescaler.DIAG']
+SWIT-ML_OCU_OcuCheckChannelStatusDetNoChecked
+['SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'CY_MCAL_OCU_044', 'SWS_Ocu_00028', 'CY_MCAL_OCU_025', 'CY_MCAL_OCU_026', 'CY_MCAL_OCU_027', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_033', 'CY_MCAL_OCU_034', 'CY_MCAL_OCU_040', 'CY_MCAL_OCU_041', 'CY_MCAL_OCU_042', 'CY_MCAL_OCU_043', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuGeneral.CONF', 'OcuSafetyFunctionApi.CONF', 'Ocu_CheckChannelStatus.FUNC', 'OcuCheckChannelStatus.DIAG']
+SWIT-ML_OCU_OcuCheckChannelStatusStopped
+['SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00149', 'CY_MCAL_OCU_044', 'CY_MCAL_OCU_074', 'SWS_Ocu_00028', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_025', 'CY_MCAL_OCU_026', 'CY_MCAL_OCU_027', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_033', 'CY_MCAL_OCU_034', 'CY_MCAL_OCU_040', 'CY_MCAL_OCU_041', 'CY_MCAL_OCU_042', 'CY_MCAL_OCU_043', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'CY_MCAL_OCU_075', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OCU_DOWNCOUNTING.CONF', 'OCU_UPCOUNTING.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuCountdirection.CONF', 'OcuGeneral.CONF', 'OcuSafetyFunctionApi.CONF', 'Ocu_CheckChannelStatus.FUNC', 'OcuCheckChannelStatus.DIAG', 'BOTH_(for_OcuHwTriggerOutputLine).CONF', 'OcuHwTriggerOutputLine.CONF', 'TR_OUT0_(for_OcuHwTriggerOutputLine).CONF', 'TR_OUT1_(for_OcuHwTriggerOutputLine).CONF']
+SWIT-ML_OCU_OcuCheckChannelStatusRunning
+['SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00149', 'CY_MCAL_OCU_044', 'CY_MCAL_OCU_074', 'SWS_Ocu_00028', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_025', 'CY_MCAL_OCU_026', 'CY_MCAL_OCU_027', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_033', 'CY_MCAL_OCU_034', 'CY_MCAL_OCU_040', 'CY_MCAL_OCU_041', 'CY_MCAL_OCU_042', 'CY_MCAL_OCU_043', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'CY_MCAL_OCU_075', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OCU_DOWNCOUNTING.CONF', 'OCU_UPCOUNTING.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuCountdirection.CONF', 'OcuGeneral.CONF', 'OcuSafetyFunctionApi.CONF', 'Ocu_CheckChannelStatus.FUNC', 'OcuCheckChannelStatus.DIAG', 'BOTH_(for_OcuHwTriggerOutputLine).CONF', 'OcuHwTriggerOutputLine.CONF', 'TR_OUT0_(for_OcuHwTriggerOutputLine).CONF', 'TR_OUT1_(for_OcuHwTriggerOutputLine).CONF']
+SWIT-ML_OCU_OcuCheckChannelStatusUninit
+['SWS_Ocu_00135', 'ECUC_Ocu_00136', 'ECUC_Ocu_00137', 'ECUC_Ocu_00139', 'ECUC_Ocu_00149', 'CY_MCAL_OCU_044', 'CY_MCAL_OCU_074', 'SWS_Ocu_00028', 'CY_MCAL_OCU_058', 'CY_MCAL_OCU_025', 'CY_MCAL_OCU_026', 'CY_MCAL_OCU_027', 'CY_MCAL_OCU_032', 'CY_MCAL_OCU_033', 'CY_MCAL_OCU_034', 'CY_MCAL_OCU_040', 'CY_MCAL_OCU_041', 'CY_MCAL_OCU_042', 'CY_MCAL_OCU_043', 'CY_MCAL_OCU_054', 'CY_MCAL_OCU_064', 'CY_MCAL_OCU_075', 'Ocu.DIAG', 'OcuGeneral.DIAG', 'OcuConfigurationOfOptionalApis.DIAG', 'Ocu.CONF', 'OCU_DOWNCOUNTING.CONF', 'OCU_UPCOUNTING.CONF', 'OcuConfigurationOfOptionalApis.CONF', 'OcuCountdirection.CONF', 'OcuGeneral.CONF', 'OcuSafetyFunctionApi.CONF', 'Ocu_CheckChannelStatus.FUNC', 'OcuCheckChannelStatus.DIAG', 'BOTH_(for_OcuHwTriggerOutputLine).CONF', 'OcuHwTriggerOutputLine.CONF', 'TR_OUT0_(for_OcuHwTriggerOutputLine).CONF', 'TR_OUT1_(for_OcuHwTriggerOutputLine).CONF']
+SWIT-ML_OCU_ISRUninit
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'CY_HW_FS_OCU_002', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'Ocu_Isr_Vector_[IRQ_Number]_Cat1.FUNC', 'Ocu_Isr_Vector_[IRQ_Number]_Cat2.FUNC', 'OcuReportError.DIAG', 'OcuInterruptHandler.DIAG']
+SWIT-ML_OCU_Uninit
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00050', 'SWS_Ocu_00057', 'SWS_Ocu_00065', 'SWS_Ocu_00074', 'SWS_Ocu_00083', 'SWS_Ocu_00090', 'SWS_Ocu_00095', 'SWS_Ocu_00104', 'SWS_Ocu_00112', 'SWS_Ocu_00119', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_InvalidChannel
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00056', 'SWS_Ocu_00064', 'SWS_Ocu_00071', 'SWS_Ocu_00080', 'SWS_Ocu_00089', 'SWS_Ocu_00096', 'SWS_Ocu_00105', 'SWS_Ocu_00113', 'SWS_Ocu_00120', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_WaitingTrigger
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_029', 'CY_MCAL_OCU_046', 'CY_MCAL_OCU_069', 'CY_MCAL_OCU_070', 'CY_MCAL_OCU_071', 'CY_MCAL_OCU_072', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuInitFailed
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuInitAlreadyInitialized
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00043', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuDeInitInvalidState
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00137', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuStartChannelBusy
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00055', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuEnableNotificationNoValidNotif
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00121', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuDisableNotificationNoValidNotif
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00114', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetPrescalerBusy
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_060', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetPrescalerInvalidClock
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_029', 'CY_MCAL_OCU_060', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetPinStateInvalidState
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00069', 'SWS_Ocu_00073', 'SWS_Ocu_00075', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetPinStateNoPin
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00072', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetPinActionInvalidAction
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00082', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetPinActionNoPin
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00081', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetAbsoluteThresholdReferenceValue
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_029', 'CY_MCAL_OCU_046', 'CY_MCAL_OCU_049', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetAbsoluteThresholdInvalidAbsoluteThreshold
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_029', 'CY_MCAL_OCU_046', 'CY_MCAL_OCU_050', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuSetRelativeThresholdInvalidRelativeThreshold
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_029', 'CY_MCAL_OCU_046', 'CY_MCAL_OCU_051', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT-ML_OCU_OcuGetVersionInfoInvalidPointer
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00126', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+SWIT_ML_OCU_OcuCheckChannelStatusDetInvalidPointer
+['ECUC_Ocu_00138', 'SWS_Ocu_00018', 'SWS_Ocu_00019', 'SWS_Ocu_00021', 'SWS_Ocu_00127', 'CY_MCAL_OCU_023', 'CY_MCAL_OCU_028', 'CY_MCAL_OCU_046', 'OcuDevErrorDetect.CONF', 'OcuErrorCalloutFunction.CONF', 'OcuIncludeFile.CONF', 'OcuReportError.DIAG']
+
+
+SWIT-ML_OCU_OcuDeInit
+REQ: SWS_Ocu_00049 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00140 ECUC_Ocu_00152 SWS_Ocu_00045 SWS_Ocu_00046 SWS_Ocu_00047 SWS_Ocu_00048 SWS_Ocu_00136 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuChannelId.CONF OcuConfigurationOfOptionalApis.CONF OcuDeInitApi.CONF OcuGeneral.CONF OcuChannelStateMachine.DIAG OcuDeInit.DIAG OcuDriverStateMachine.DIAG Ocu_DeInit.FUNC
+
+
+SWIT-ML_OCU_OcuSetPinState
+REQ: SWS_Ocu_00070 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00145 ECUC_Ocu_00149 ECUC_Ocu_00159 SWS_Ocu_00031 SWS_Ocu_00066 SWS_Ocu_00067 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OCU_DOWNCOUNTING.CONF OCU_UPCOUNTING.CONF OcuConfigurationOfOptionalApis.CONF OcuCountdirection.CONF OcuGeneral.CONF OcuOutputPinUsed.CONF OcuSetPinStateApi.CONF Ocu_SetPinState.FUNC OcuSetPinState.DIAG
+
+
+SWIT-ML_OCU_OcuSetPinAction
+REQ: SWS_Ocu_00079 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00144 ECUC_Ocu_00159 SWS_Ocu_00032 SWS_Ocu_00076 SWS_Ocu_00077 SWS_Ocu_00084 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuOutputPinUsed.CONF OcuSetPinActionApi.CONF Ocu_SetPinAction.FUNC OcuSetPinAction.DIAG
+
+
+SWIT-ML_OCU_OcuGetCounter
+REQ: SWS_Ocu_00088 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00141 SWS_Ocu_00013 SWS_Ocu_00029 SWS_Ocu_00085 SWS_Ocu_00086 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuGetCounterApi.CONF Ocu_GetCounter.FUNC OcuGetCounter.DIAG
+
+
+SWIT-ML_OCU_OcuSetAbsoluteThreshold
+REQ: SWS_Ocu_00094 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00143 ECUC_Ocu_00157 SWS_Ocu_00013 SWS_Ocu_00138 SWS_Ocu_00091 SWS_Ocu_00092 SWS_Ocu_00098 SWS_Ocu_00097 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuMaxCounterValue.CONF OcuSetAbsoluteThresholdApi.CONF Ocu_SetAbsoluteThreshold.FUNC OcuSetAbsoluteThreshold.DIAG
+
+
+SWIT-ML_OCU_OcuSetRelativeThreshold
+REQ: SWS_Ocu_00103 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00146 ECUC_Ocu_00157 SWS_Ocu_00013 SWS_Ocu_00138 SWS_Ocu_00100 SWS_Ocu_00101 SWS_Ocu_00106 SWS_Ocu_00107 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuMaxCounterValue.CONF OcuSetRelativeThresholdApi.CONF Ocu_SetRelativeThreshold.FUNC OcuSetRelativeThreshold.DIAG
+
+
+SWIT-ML_OCU_OcuDisableNotification
+REQ: SWS_Ocu_00111 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00142 ECUC_Ocu_00158 SWS_Ocu_00108 SWS_Ocu_00109 SWS_Ocu_00128 SWS_Ocu_00129 SWS_Ocu_00130 SWS_Ocu_00132 SWS_Ocu_00133 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuNotification.CONF OcuNotificationSupported.CONF Ocu_DisableNotification.FUNC OcuDisableNotification.DIAG
+
+
+SWIT-ML_OCU_OcuEnableNotification
+REQ: SWS_Ocu_00118 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00142 ECUC_Ocu_00158 SWS_Ocu_00115 SWS_Ocu_00116 SWS_Ocu_00128 SWS_Ocu_00129 SWS_Ocu_00130 SWS_Ocu_00132 SWS_Ocu_00133 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuNotification.CONF OcuNotificationSupported.CONF Ocu_EnableNotification.FUNC OcuEnableNotification.DIAG
+
+
+SWIT-ML_OCU_OcuGetVersionInfo
+REQ: SWS_Ocu_00124 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00147 SWS_Ocu_00169 SWS_Ocu_00122 SWS_Ocu_00123 CY_MCAL_OCU_017 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuVersionInfoApi.CONF Ocu_GetVersionInfo.FUNC OcuGetVersionInfo.DIAG
+
+
+SWIT-ML_OCU_OcuInit
+REQ: SWS_Ocu_00131 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00148 ECUC_Ocu_00149 ECUC_Ocu_00150 ECUC_Ocu_00151 ECUC_Ocu_00152 ECUC_Ocu_00153 ECUC_Ocu_00154 ECUC_Ocu_00155 ECUC_Ocu_00156 ECUC_Ocu_00157 ECUC_Ocu_00160 ECUC_Ocu_00161 ECUC_Ocu_00162 ECUC_Ocu_00163 ECUC_Ocu_00164 ECUC_Ocu_00165 ECUC_Ocu_00166 CY_MCAL_OCU_002 CY_MCAL_OCU_003 CY_MCAL_OCU_047 CY_MCAL_OCU_052 CY_MCAL_OCU_067 CY_MCAL_OCU_068 CY_MCAL_OCU_074 SWS_Ocu_00033 SWS_Ocu_00034 SWS_Ocu_00035 SWS_Ocu_00036 SWS_Ocu_00010 SWS_Ocu_00011 SWS_Ocu_00037 SWS_Ocu_00038 SWS_Ocu_00039 SWS_Ocu_00040 SWS_Ocu_00044 CY_MCAL_OCU_018 CY_MCAL_OCU_058 CY_MCAL_OCU_031 CY_MCAL_OCU_032 CY_MCAL_OCU_056 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigSet.DIAG OcuChannel.DIAG Ocu.CONF OCU_DOWNCOUNTING.CONF OCU_HIGH.CONF OCU_LOW.CONF OCU_PRESCALE_[Prescaler_number].CONF OCU_UPCOUNTING.CONF OcuChannel.CONF OcuChannelId.CONF OcuChannelTickDuration.CONF OcuChannelClockSource.CONF OcuConfigSet.CONF OcuCountdirection.CONF OcuDefaultThreshold.CONF OcuGeneral.CONF OcuHardwareTriggeredAdc.CONF OcuHardwareTriggeredDMA.CONF OcuMaxCounterValue.CONF OcuOutputPinDefaultState.CONF OcuChannelPrescale.CONF OcuTimer.CONF OcuStartTriggerSelect0.CONF OCU_DEBUG_MODE_CONTINUE.CONF OCU_DEBUG_MODE_HALT.CONF OcuDebugMode.CONF OcuStartTriggerSelect1.CONF OcuChannelStateMachine.DIAG OcuInit.DIAG OcuDriverStateMachine.DIAG Ocu_Init.FUNC BOTH_(for_OcuHwTriggerOutputLine).CONF OcuHwTriggerOutputLine.CONF TR_OUT0_(for_OcuHwTriggerOutputLine).CONF TR_OUT1_(for_OcuHwTriggerOutputLine).CONF
+
+
+SWIT-ML_OCU_OcuInitAllChannel
+REQ: SWS_Ocu_00131 SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00148 ECUC_Ocu_00149 ECUC_Ocu_00150 ECUC_Ocu_00151 ECUC_Ocu_00152 ECUC_Ocu_00153 ECUC_Ocu_00154 ECUC_Ocu_00155 ECUC_Ocu_00156 ECUC_Ocu_00157 ECUC_Ocu_00160 ECUC_Ocu_00161 ECUC_Ocu_00162 ECUC_Ocu_00163 ECUC_Ocu_00164 ECUC_Ocu_00165 ECUC_Ocu_00166 CY_MCAL_OCU_002 CY_MCAL_OCU_003 CY_MCAL_OCU_047 CY_MCAL_OCU_052 CY_MCAL_OCU_067 CY_MCAL_OCU_068 CY_MCAL_OCU_074 SWS_Ocu_00033 SWS_Ocu_00034 SWS_Ocu_00035 SWS_Ocu_00036 SWS_Ocu_00010 SWS_Ocu_00011 SWS_Ocu_00037 SWS_Ocu_00038 SWS_Ocu_00039 SWS_Ocu_00040 SWS_Ocu_00044 CY_MCAL_OCU_018 CY_MCAL_OCU_058 CY_MCAL_OCU_031 CY_MCAL_OCU_032 CY_MCAL_OCU_056 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigSet.DIAG OcuChannel.DIAG Ocu.CONF OCU_DOWNCOUNTING.CONF OCU_HIGH.CONF OCU_LOW.CONF OCU_PRESCALE_[Prescaler_number].CONF OCU_UPCOUNTING.CONF OcuChannel.CONF OcuChannelId.CONF OcuChannelTickDuration.CONF OcuConfigSet.CONF OcuCountdirection.CONF OcuDefaultThreshold.CONF OcuGeneral.CONF OcuHardwareTriggeredAdc.CONF OcuHardwareTriggeredDMA.CONF OcuMaxCounterValue.CONF OcuOutputPinDefaultState.CONF OcuChannelPrescale.CONF OcuTimer.CONF OcuStartTriggerSelect0.CONF OCU_DEBUG_MODE_CONTINUE.CONF OCU_DEBUG_MODE_HALT.CONF OcuDebugMode.CONF OcuStartTriggerSelect1.CONF OcuChannelStateMachine.DIAG OcuInit.DIAG OcuDriverStateMachine.DIAG BOTH_(for_OcuHwTriggerOutputLine).CONF OcuHwTriggerOutputLine.CONF TR_OUT0_(for_OcuHwTriggerOutputLine).CONF TR_OUT1_(for_OcuHwTriggerOutputLine).CONF
+
+
+SWIT-ML_OCU_OcuStartChannel
+REQ: SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00158 SWS_Ocu_00051 SWS_Ocu_00052 SWS_Ocu_00054 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 CY_MCAL_OCU_075 / ARCH: Ocu.DIAG OcuGeneral.DIAG Ocu.CONF OcuGeneral.CONF OcuNotification.CONF OcuChannelStateMachine.DIAG OcuStartChannel.DIAG Ocu_StartChannel.FUNC
+
+
+SWIT-ML_OCU_OcuStopChannel
+REQ: SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 SWS_Ocu_00058 SWS_Ocu_00059 SWS_Ocu_00060 SWS_Ocu_00062 SWS_Ocu_00063 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG Ocu.CONF OcuGeneral.CONF OcuChannelStateMachine.DIAG OcuStopChannel.DIAG Ocu_StopChannel.FUNC
+
+
+SWIT-ML_OCU_OcuSetPrescaler
+REQ: SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 CY_MCAL_OCU_002 CY_MCAL_OCU_003 CY_MCAL_OCU_045 CY_MCAL_OCU_058 CY_MCAL_OCU_032 CY_MCAL_OCU_060 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OCU_PRESCALE_[Prescaler_number].CONF OcuChannelClockSource.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuChannelPrescale.CONF OcuSetPrescalerApi.CONF Ocu_SetPrescaler.FUNC OcuSetPrescaler.DIAG
+
+
+SWIT-ML_OCU_OcuCheckChannelStatusDetNoChecked
+REQ: SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 CY_MCAL_OCU_044 SWS_Ocu_00028 CY_MCAL_OCU_025 CY_MCAL_OCU_026 CY_MCAL_OCU_027 CY_MCAL_OCU_032 CY_MCAL_OCU_033 CY_MCAL_OCU_034 CY_MCAL_OCU_040 CY_MCAL_OCU_041 CY_MCAL_OCU_042 CY_MCAL_OCU_043 CY_MCAL_OCU_054 CY_MCAL_OCU_064 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OcuConfigurationOfOptionalApis.CONF OcuGeneral.CONF OcuSafetyFunctionApi.CONF Ocu_CheckChannelStatus.FUNC OcuCheckChannelStatus.DIAG
+
+
+SWIT-ML_OCU_OcuCheckChannelStatusStopped
+REQ: SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00149 CY_MCAL_OCU_044 CY_MCAL_OCU_074 SWS_Ocu_00028 CY_MCAL_OCU_058 CY_MCAL_OCU_025 CY_MCAL_OCU_026 CY_MCAL_OCU_027 CY_MCAL_OCU_032 CY_MCAL_OCU_033 CY_MCAL_OCU_034 CY_MCAL_OCU_040 CY_MCAL_OCU_041 CY_MCAL_OCU_042 CY_MCAL_OCU_043 CY_MCAL_OCU_054 CY_MCAL_OCU_064 CY_MCAL_OCU_075 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OCU_DOWNCOUNTING.CONF OCU_UPCOUNTING.CONF OcuConfigurationOfOptionalApis.CONF OcuCountdirection.CONF OcuGeneral.CONF OcuSafetyFunctionApi.CONF Ocu_CheckChannelStatus.FUNC OcuCheckChannelStatus.DIAG BOTH_(for_OcuHwTriggerOutputLine).CONF OcuHwTriggerOutputLine.CONF TR_OUT0_(for_OcuHwTriggerOutputLine).CONF TR_OUT1_(for_OcuHwTriggerOutputLine).CONF
+
+
+SWIT-ML_OCU_OcuCheckChannelStatusRunning
+REQ: SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00149 CY_MCAL_OCU_044 CY_MCAL_OCU_074 SWS_Ocu_00028 CY_MCAL_OCU_058 CY_MCAL_OCU_025 CY_MCAL_OCU_026 CY_MCAL_OCU_027 CY_MCAL_OCU_032 CY_MCAL_OCU_033 CY_MCAL_OCU_034 CY_MCAL_OCU_040 CY_MCAL_OCU_041 CY_MCAL_OCU_042 CY_MCAL_OCU_043 CY_MCAL_OCU_054 CY_MCAL_OCU_064 CY_MCAL_OCU_075 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OCU_DOWNCOUNTING.CONF OCU_UPCOUNTING.CONF OcuConfigurationOfOptionalApis.CONF OcuCountdirection.CONF OcuGeneral.CONF OcuSafetyFunctionApi.CONF Ocu_CheckChannelStatus.FUNC OcuCheckChannelStatus.DIAG BOTH_(for_OcuHwTriggerOutputLine).CONF OcuHwTriggerOutputLine.CONF TR_OUT0_(for_OcuHwTriggerOutputLine).CONF TR_OUT1_(for_OcuHwTriggerOutputLine).CONF
+
+
+SWIT-ML_OCU_OcuCheckChannelStatusUninit
+REQ: SWS_Ocu_00135 ECUC_Ocu_00136 ECUC_Ocu_00137 ECUC_Ocu_00139 ECUC_Ocu_00149 CY_MCAL_OCU_044 CY_MCAL_OCU_074 SWS_Ocu_00028 CY_MCAL_OCU_058 CY_MCAL_OCU_025 CY_MCAL_OCU_026 CY_MCAL_OCU_027 CY_MCAL_OCU_032 CY_MCAL_OCU_033 CY_MCAL_OCU_034 CY_MCAL_OCU_040 CY_MCAL_OCU_041 CY_MCAL_OCU_042 CY_MCAL_OCU_043 CY_MCAL_OCU_054 CY_MCAL_OCU_064 CY_MCAL_OCU_075 / ARCH: Ocu.DIAG OcuGeneral.DIAG OcuConfigurationOfOptionalApis.DIAG Ocu.CONF OCU_DOWNCOUNTING.CONF OCU_UPCOUNTING.CONF OcuConfigurationOfOptionalApis.CONF OcuCountdirection.CONF OcuGeneral.CONF OcuSafetyFunctionApi.CONF Ocu_CheckChannelStatus.FUNC OcuCheckChannelStatus.DIAG BOTH_(for_OcuHwTriggerOutputLine).CONF OcuHwTriggerOutputLine.CONF TR_OUT0_(for_OcuHwTriggerOutputLine).CONF TR_OUT1_(for_OcuHwTriggerOutputLine).CONF
+
+
+SWIT-ML_OCU_ISRUninit
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 CY_HW_FS_OCU_002 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF Ocu_Isr_Vector_[IRQ_Number]_Cat1.FUNC Ocu_Isr_Vector_[IRQ_Number]_Cat2.FUNC OcuReportError.DIAG OcuInterruptHandler.DIAG
+
+
+SWIT-ML_OCU_Uninit
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00050 SWS_Ocu_00057 SWS_Ocu_00065 SWS_Ocu_00074 SWS_Ocu_00083 SWS_Ocu_00090 SWS_Ocu_00095 SWS_Ocu_00104 SWS_Ocu_00112 SWS_Ocu_00119 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_InvalidChannel
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00056 SWS_Ocu_00064 SWS_Ocu_00071 SWS_Ocu_00080 SWS_Ocu_00089 SWS_Ocu_00096 SWS_Ocu_00105 SWS_Ocu_00113 SWS_Ocu_00120 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_WaitingTrigger
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_029 CY_MCAL_OCU_046 CY_MCAL_OCU_069 CY_MCAL_OCU_070 CY_MCAL_OCU_071 CY_MCAL_OCU_072 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuInitFailed
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuInitAlreadyInitialized
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00043 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuDeInitInvalidState
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00137 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuStartChannelBusy
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00055 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuEnableNotificationNoValidNotif
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00121 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuDisableNotificationNoValidNotif
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00114 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetPrescalerBusy
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_060 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetPrescalerInvalidClock
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_029 CY_MCAL_OCU_060 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetPinStateInvalidState
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00069 SWS_Ocu_00073 SWS_Ocu_00075 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetPinStateNoPin
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00072 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetPinActionInvalidAction
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00082 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetPinActionNoPin
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00081 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetAbsoluteThresholdReferenceValue
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_029 CY_MCAL_OCU_046 CY_MCAL_OCU_049 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetAbsoluteThresholdInvalidAbsoluteThreshold
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_029 CY_MCAL_OCU_046 CY_MCAL_OCU_050 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuSetRelativeThresholdInvalidRelativeThreshold
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_029 CY_MCAL_OCU_046 CY_MCAL_OCU_051 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT-ML_OCU_OcuGetVersionInfoInvalidPointer
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00126 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG
+
+
+SWIT_ML_OCU_OcuCheckChannelStatusDetInvalidPointer
+REQ: ECUC_Ocu_00138 SWS_Ocu_00018 SWS_Ocu_00019 SWS_Ocu_00021 SWS_Ocu_00127 CY_MCAL_OCU_023 CY_MCAL_OCU_028 CY_MCAL_OCU_046 / ARCH: OcuDevErrorDetect.CONF OcuErrorCalloutFunction.CONF OcuIncludeFile.CONF OcuReportError.DIAG

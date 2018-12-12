@@ -9,40 +9,50 @@ COLON     = ": "
 DELIMITER = " "
 END       = " / "
 
+class RefObject:
+  def __init__(self):
+    self.name = ""
+    self.dict = {}
+
+
+
 CaseList = {}
 with open(filename, newline='') as freq:
   reader = csv.reader(freq)
   for row in reader:
-    if row[0] not in CaseList:
-      CaseList[row[0]] = list(set(row[1].split(',')))
-    else:
-      for x in row[1].split(','):
-        if x not in CaseList[row[0]]:
-          CaseList[row[0]].append(x)
+    for case in row[0].split(','):
+      # print(case)
+      if case not in CaseList:
+        CaseList[case] = row[2].split()
+      elif case in CaseList:
+        CaseList[case].append(row[2])
+
+for case in CaseList:
+  print(case)
+  print(CaseList[case])
+
 
 TransDict = {}
 with open('trans.csv', newline='') as trans:
   tran = csv.reader(trans)
   for row in tran:
-    TransDict[row[0]] = row[1:]
+    TransDict[row[1]] = row[2]
 
 for Case in CaseList:
   print("\n")
   print(Case)
   req = []
   arch = []
-  dsgn = []
-  for PolarionID in CaseList[Case]:
-    if PolarionID in TransDict:
-      if TransDict[PolarionID][1] == REQ:
-        req.append(TransDict[PolarionID][0])
-      if TransDict[PolarionID][1] == ARCH:
-        arch.append(TransDict[PolarionID][0])
-      if TransDict[PolarionID][1] == DSGN:
-        dsgn.append(TransDict[PolarionID][0])
+  for ref in CaseList[Case]:
+    if ref in TransDict:
+      if TransDict[ref] == REQ:
+        req.append(ref)
+      if TransDict[ref] == ARCH:
+        arch.append(ref)
+
     else:
       print("=====================================\n")
-      print(PolarionID + " is missing!\n")
+      print(ref + " is missing!\n")
 
   if req:
     print(REQ + COLON + DELIMITER.join(req), end = END)
