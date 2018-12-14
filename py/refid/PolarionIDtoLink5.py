@@ -26,10 +26,10 @@ class CaseObject:
         self.ref   = []
         self.refid = {REQ : [], ARCH : [], DSGN : []}
         self.link  = ''
-    
+
     def WItoREF(self):
         pass
-     
+
     def REFtoREFID(self):
         for r in self.ref:
             if r in TransDict:
@@ -37,6 +37,22 @@ class CaseObject:
                     self.refid[REQ].append(r)
                 if TransDict[r] == ARCH:
                     self.refid[ARCH].append(r)
+                if TransDict[r] == DSGN:
+                    self.refid[DSGN].append(r)
+
+    def REFIDtoLINK(self):
+        req = ''
+        arch = ''
+        dsgn = ''
+        if self.refid[REQ]:
+            req = REQ + COLON + DELIMITER.join(self.refid[REQ])
+        if self.refid[ARCH]:
+            arch = ARCH + COLON + DELIMITER.join(self.refid[ARCH])
+        if self.refid[DSGN]:
+            dsgn = DSGN + COLON + DELIMITER.join(self.refid[DSGN])
+        print(req)
+        print(arch)
+        print(dsgn)
 
 
 
@@ -67,8 +83,13 @@ for case in CaseDict:
     print()
     print(CaseObj.refid)
     print()
+    print(CaseObj.link)
+    print()
+    CaseObj.REFIDtoLINK()
     CaseObjList.append(CaseObj)
 
-# print(CaseObjList)
-
+print(__file__)
+basepath = os.path.dirname(os.path.realpath(__file__))
+print(basepath)
+print(os.path.realpath(__file__))
 
