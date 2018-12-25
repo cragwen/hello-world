@@ -65,12 +65,18 @@ for root, dirs, files in os.walk(pathfrom):
             elif file not in templist:
                 print(root)
                 print(file)
-                shutil.copy(srcfile, dstfile)
+                try:
+                    shutil.copy(srcfile, dstfile)
+                except:
+                    pass
             elif os.path.getctime(srcfile) > os.path.getctime(dstfile):
                 print(root)
                 print(file)
-                shutil.copy(srcfile, dstfile)
-            print('==========================')
+                try:
+                    shutil.copy(srcfile, dstfile)
+                except:
+                    pass
+            # print('==========================')
 
 
 
