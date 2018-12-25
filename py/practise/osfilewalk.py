@@ -39,7 +39,7 @@ cwd = os.getcwd()
     # print("bytes in", len(files), "non-directory files")
     # if 'CVS' in dirs:
         # dirs.remove('CVS')
-
+ 
 
 for root, dirs, files in os.walk(pathfrom):
     # print(root)
