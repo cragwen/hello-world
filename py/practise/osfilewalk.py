@@ -69,7 +69,7 @@ for root, dirs, files in os.walk(pathfrom):
                     shutil.copy(srcfile, dstfile)
                 except:
                     pass
-            elif os.path.getctime(srcfile) > os.path.getctime(dstfile):
+            elif os.path.getmtime(srcfile) > os.path.getmtime(dstfile):
                 print(root)
                 print(file)
                 try:
