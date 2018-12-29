@@ -6,7 +6,7 @@ pathfrom = r'\\10.167.60.17\temp'
 pathto   = r'C:\Windows\tmmp'
 FILESIZE = 100000000
 TIME     = time.time()
-TIMEGAP  = 600000
+TIMEGAP  = 60 * 60 * 24 *30
 
 cwd = os.getcwd()
 

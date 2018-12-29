@@ -1,15 +1,7 @@
 import re
 
 Pattern = """\
-  {{
-    {{
-        .sysIntSrc  = tcpwm_1_interrupts_{0}_IRQn,
-        .intIdx     = CPUIntIdx0_IRQn,
-        .isEnabled  = true,
-    }},
-    Ocu_Isr_Vector_{1}_Cat2,
-    3,
-  }},"""
+#define TCPWM_1_INTERRUPTS_{0}_HANDLER                  Ocu_Isr_Vector_{1}_Cat2              // IRQ{1}"""
 
 Times   = 13
 
