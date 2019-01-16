@@ -1,8 +1,17 @@
 import re
 
-loop = 12
-rep  = [256, 363]
-pat  = """#define TCPWM_0_INTERRUPTS_{0[0]}_HANDLER                     Ocu_Isr_Vector_{0[1]}_Cat2              // IRQ{0[1]}"""
+loop = 190
+rep  = [5]
+pat  = """## {0[0]}   
+- 意味  
+   1.   
+   2.   
+- 接続   
+- 例文  
+   -   
+   -   
+   -   
+---"""
 
 
 def patmak(pat, loop, rep):
