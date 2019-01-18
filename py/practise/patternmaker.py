@@ -1,23 +1,16 @@
 import re
 
-loop = 190
-rep  = [5]
-pat  = """## {0[0]}   
-- 意味  
-   1.   
-   2.   
-- 接続   
-- 例文  
-   -   
-   -   
-   -   
+loop = 20
+rep  = [1, 100, 500]
+pat  = """## {1}   
+   1.{0}      2. {2}  - 例文 {0} 
 ---"""
 
 
 def patmak(pat, loop, rep):
     """ this is a pattern maker"""
     for i in range(loop):
-        print(pat.format(rep))
+        print(pat.format(*rep))
         rep = [x+1 for x in rep]
 
 if __name__ == '__main__':
