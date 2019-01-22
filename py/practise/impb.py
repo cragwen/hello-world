@@ -7,4 +7,5 @@ def fb():
 
 if __name__ == "__main__":
   fb()
+  fa()
 
