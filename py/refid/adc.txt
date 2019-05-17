@@ -1,0 +1,20 @@
+
+
+SWIT-ML_ADC_PortSelectionUseSarMux1
+REQ: CY_MCAL_ADC_102 CY_MCAL_ADC_103 CY_MCAL_ADC_106 CY_MCAL_ADC_099 CY_MCAL_ADC_105 CY_MCAL_ADC_104 CY_MCAL_ADC_101 CY_MCAL_ADC_097 CY_MCAL_ADC_098 CY_MCAL_ADC_100 / ARCH: AdcSarMux2DiagnosticReference.CONF AdcSarMux1DiagnosticReference.CONF AdcSarMux3ConnectToAdc0.CONF AdcSarMux2ConnectToAdc0.CONF [SarMux2_Diagnostic_Reference_Name].CONF AdcSarMux1ConnectToAdc0.CONF AdcSarMux1DiagnoseEnable.CONF AdcSarMux3DiagnosticReference.CONF [SarMux1_Diagnostic_Reference_Name].CONF [SarMux3_Diagnostic_Reference_Name].CONF AdcSarMux3DiagnoseEnable.CONF AdcSarMux2DiagnoseEnable.CONF
+
+
+SWIT-ML_ADC_PortSelectionUseSarMux2
+REQ: CY_MCAL_ADC_100 CY_MCAL_ADC_097 CY_MCAL_ADC_098 CY_MCAL_ADC_099 / ARCH: AdcSarMux3ConnectToAdc0.CONF AdcSarMux2ConnectToAdc0.CONF AdcSarMux1ConnectToAdc0.CONF
+
+
+SWIT-ML_ADC_PortSelectionUseSarMux12
+REQ: CY_MCAL_ADC_100 CY_MCAL_ADC_097 CY_MCAL_ADC_098 CY_MCAL_ADC_099 / ARCH: AdcSarMux3ConnectToAdc0.CONF AdcSarMux2ConnectToAdc0.CONF AdcSarMux1ConnectToAdc0.CONF
+
+
+SWIT-ML_ADC_DetErrorParamHwUnitSarDisableDetOn
+REQ: CY_MCAL_ADC_094 SWS_Adc_00377 CY_MCAL_ADC_010 / ARCH: Adc_SetCalibrationValue.DIAG Adc_SetCalibrationValue.FUNC Adc_GetCalibrationAlternateValue.FUNC Adc_GetCalibrationAlternateValue.DIAG Adc_GetCalibrationValue.FUNC Adc_GetCalibrationValue.DIAG
+
+
+SWIT-ML_ADC_DetErrorParamHwUnitSarDisableDetOff
+REQ: CY_MCAL_ADC_094 CY_MCAL_ADC_009 CY_MCAL_ADC_010 / ARCH: Adc_SetCalibrationValue.DIAG Adc_SetCalibrationValue.FUNC Adc_GetCalibrationAlternateValue.FUNC Adc_GetCalibrationAlternateValue.DIAG Adc_GetCalibrationValue.FUNC Adc_GetCalibrationValue.DIAG

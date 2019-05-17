@@ -1,15 +1,11 @@
 from PatternMaker import *
 
 a = Pattern()
-a.loop = 4
-a.rep  = [512, 349]
-a.pat  = """  {{
-    {{
-        .sysIntSrc  = tcpwm_0_interrupts_{0}_IRQn,
-        .intIdx     = CPUIntIdx0_IRQn,
-        .isEnabled  = true,
-    }},
-    Ocu_Isr_Vector_{1}_Cat2,
-    3,
-  }},"""
+a.loop = 19
+a.rep  = [19,1]
+a.pat  = """            <ValueTableEntry>
+              <IntValue>{0}</IntValue>
+              <StrValue>adc_cfg{1:02d}_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>"""
 a.patmak()

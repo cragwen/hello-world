@@ -1,36 +1,95 @@
-  {
-    {
-        .sysIntSrc  = tcpwm_0_interrupts_512_IRQn,
-        .intIdx     = CPUIntIdx0_IRQn,
-        .isEnabled  = true,
-    },
-    Ocu_Isr_Vector_349_Cat2,
-    3,
-  },
-  {
-    {
-        .sysIntSrc  = tcpwm_0_interrupts_513_IRQn,
-        .intIdx     = CPUIntIdx0_IRQn,
-        .isEnabled  = true,
-    },
-    Ocu_Isr_Vector_350_Cat2,
-    3,
-  },
-  {
-    {
-        .sysIntSrc  = tcpwm_0_interrupts_514_IRQn,
-        .intIdx     = CPUIntIdx0_IRQn,
-        .isEnabled  = true,
-    },
-    Ocu_Isr_Vector_351_Cat2,
-    3,
-  },
-  {
-    {
-        .sysIntSrc  = tcpwm_0_interrupts_515_IRQn,
-        .intIdx     = CPUIntIdx0_IRQn,
-        .isEnabled  = true,
-    },
-    Ocu_Isr_Vector_352_Cat2,
-    3,
-  },
+            <ValueTableEntry>
+              <IntValue>19</IntValue>
+              <StrValue>adc_cfg01_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>20</IntValue>
+              <StrValue>adc_cfg02_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>21</IntValue>
+              <StrValue>adc_cfg03_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>22</IntValue>
+              <StrValue>adc_cfg04_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>23</IntValue>
+              <StrValue>adc_cfg05_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>24</IntValue>
+              <StrValue>adc_cfg06_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>25</IntValue>
+              <StrValue>adc_cfg07_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>26</IntValue>
+              <StrValue>adc_cfg08_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>27</IntValue>
+              <StrValue>adc_cfg09_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>28</IntValue>
+              <StrValue>adc_cfg10_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>29</IntValue>
+              <StrValue>adc_cfg11_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>30</IntValue>
+              <StrValue>adc_cfg12_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>31</IntValue>
+              <StrValue>adc_cfg13_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>32</IntValue>
+              <StrValue>adc_cfg14_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>33</IntValue>
+              <StrValue>adc_cfg15_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>34</IntValue>
+              <StrValue>adc_cfg16_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>35</IntValue>
+              <StrValue>adc_cfg17_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>36</IntValue>
+              <StrValue>adc_cfg18_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
+            <ValueTableEntry>
+              <IntValue>37</IntValue>
+              <StrValue>adc_cfg19_8m</StrValue>
+              <IsHexValue>false</IsHexValue>
+            </ValueTableEntry>
